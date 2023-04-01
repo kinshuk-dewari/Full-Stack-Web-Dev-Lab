@@ -1,3 +1,3 @@
 # Output
-<img src="output1.jpg" width="584px" height="487px">
-<img src="output2.jpg" width="584px" height="524px">
+<img src="output1.png" width="584px" height="487px">
+<img src="output2.png" width="584px" height="524px">
