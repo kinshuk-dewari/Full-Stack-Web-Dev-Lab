@@ -1,2 +1,2 @@
 # Output
-<img src="output.jpg" width="800px" height="1000px">
+<img src="output.png" width="1000px" height="600px">
