@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>desc</title>
+    <style>
+        a:link{
+            color: green;
+            text-decoration: none;
+        }
+        
+        a:visited{
+            color: blue;
+            text-decoration: none;
+        }
+        
+        a:hover,a:focus{
+            color: red;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <a href="" onclick="objective()">Objective</a>
+    <br><br>
+    <a href="" onclick="personal()">Personal Information</a>
+    <br><br>
+    <a href="" onclick="family()">Family Information</a>
+    <br><br>
+    <a href="" onclick="education()">Education Information</a>
+    <br><br>
+    <a href="" onclick="experience()">Experience</a>
+    <br><br>
+    <a href="" onclick="achievements()">Achievements</a>
+    <br><br>
+    <a href="" onclick="others()">Others</a>
+    <script >
+        function objective()
+        {
+            parent.info.document.getElementById("display").innerHTML="To have a normal life";
+            parent.images.document.getElementById("image").src="img/objective.png";
+        }
+        function personal()
+        {
+            parent.info.document.getElementById("display").innerHTML="Name : Denji</br> Desc : Also known as the chainsaw devil.";
+            parent.images.document.getElementById("image").src="img/personal_info.jpeg";
+        }
+        function family()
+        {
+            parent.info.document.getElementById("display").innerHTML="This is my family";
+            parent.images.document.getElementById("image").src="img/family.jpeg";
+        }
+        function education()
+        {
+            parent.info.document.getElementById("display").innerHTML="Currently in High School";
+            parent.images.document.getElementById("image").src="img/education.jpeg";
+        }
+        function experience()
+        {
+            parent.info.document.getElementById("display").innerHTML="A Professional Devil Hunter";
+            parent.images.document.getElementById("image").src="img/experience.jpeg";
+        }
+        function achievements()
+        {
+            parent.info.document.getElementById("display").innerHTML="Killed alot of devils including THE CONTROL DEVIL.";
+            parent.images.document.getElementById("image").src="img/achievements.jpeg";
+        }
+        function others()
+        {
+            parent.info.document.getElementById("display").innerHTML="THE CHAINSAW-MAN";
+            parent.images.document.getElementById("image").src="img/others.jpeg";
+        }
+    </script>
+</body>
+</html>
